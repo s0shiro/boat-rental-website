@@ -3,61 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
-    <title>Boat Rental Website</title>
+    <title>Boat Rental | Website</title>
   </head>
   <body>
     <header>
-      <a href="#" class="logo"><img src="img/boat.png" alt="" /> </a>
-
+      <!-- <a href="#" class="logo"><img src="img/boat.png" alt="" /></a> -->
       <div class="bx bx-menu" id="menu-icon"></div>
+      <a href="#home" class="logo">
+        <img src="img/boat.png" alt="" />
+        GasparGem
+      </a>
 
       <ul class="navbar">
         <li><a href="#home">Home</a></li>
         <li><a href="#ride">Ride</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#about">About Us</a></li>
         <li><a href="#reviews">Reviews</a></li>
+        <li><a href="./src/services.html">Services</a></li>
       </ul>
       <div class="header-btn">
-        <a href="#" class="sign-up">Sign Up</a>
-        <a href="#" class="sign-in">Log In</a>
+        <a href="src/signup.html" class="sign-up">Sign Up</a>
+        <a href="src/login.html" class="sign-in">Log In</a>
       </div>
     </header>
     <!-- Home -->
     <section class="home" id="home">
       <div class="text">
-        <h1><span>Looking</span> to <br />rent a boat</h1>
+        <h1><span>Looking</span> for a<br />boat to rent?</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, <br />adipisicing elit.
-          Commodi culpa doloremque
+          Experience the thrill of sailing on the open waters with our boat
+          <br />
+          rental services. Whether you're looking for a relaxing day on the
+          <br />
+          lake or an adventurous voyage along the coast, we have the perfect
+          <br />
+          boat for you.
         </p>
-        <div class="app-stores">
-          <img src="img/ios.png" alt="" />
-          <img src="img/play.png" alt="" />
-        </div>
-      </div>
-
-      <div class="form-container">
-        <form action="">
-          <div class="input-box">
-            <span>Location</span>
-            <input type="search" name="" id="" placeholder="Search Places" />
-          </div>
-          <div class="input-box">
-            <span>Pick-Up Date</span>
-            <input type="date" name="" id="" />
-          </div>
-          <div class="input-box">
-            <span>Return Date</span>
-            <input type="date" name="" id="" />
-          </div>
-          <input type="submit" name="" id="" class="btn" />
-        </form>
       </div>
     </section>
 
@@ -70,101 +56,32 @@
       <div class="ride-container">
         <div class="box">
           <i class="bx bxs-map"></i>
-          <h2>Choose A Location</h2>
+          <h2>Choose A Boat</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            alias repudiandae, quis nulla veritatis fugiat.
+            Choose from our diverse collection of boats tailored to your desires
+            and requirements. Whether you're in search of a compact boat or a
+            larger one.
           </p>
         </div>
 
         <div class="box">
           <i class="bx bxs-calendar-check"></i>
-          <h2>Pick Up Date</h2>
+          <h2>Fill up the form</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            alias repudiandae, quis nulla veritatis fugiat.
+            Fill out the form to rent a boat.We need some information to ensure
+            you have the best experience possible. Thank you for choosing our
+            boat rental services.
           </p>
         </div>
 
         <div class="box">
           <i class="bx bxs-calendar-star"></i>
-          <h2>Book a Boat</h2>
+          <h2>Save the date</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            alias repudiandae, quis nulla veritatis fugiat.
+            We look forward to welcoming you on your booked date. Please ensure
+            to arrive at our location as scheduled. Enjoy your vacation and
+            Happy sailing!
           </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Services -->
-    <section class="services" id="services">
-      <div class="heading">
-        <span>Best Services</span>
-        <h1>
-          Explore Out Top Deals <br />
-          from Top Rated Dealers
-        </h1>
-      </div>
-      <div class="services-container">
-        <div class="box">
-          <div class="box-img">
-            <img src="img/car1.jpg" alt="" />
-          </div>
-          <p>2017</p>
-          <h3>2018 Honda Civic</h3>
-          <h2>$58500 | $358 <span>/month</span></h2>
-          <a href="#" class="btn">Rent Now</a>
-        </div>
-
-        <div class="box">
-          <div class="box-img">
-            <img src="img/car2.jpg" alt="" />
-          </div>
-          <p>2017</p>
-          <h3>2018 Honda Civic</h3>
-          <h2>$58500 | $358 <span>/month</span></h2>
-          <a href="#" class="btn">Rent Now</a>
-        </div>
-
-        <div class="box">
-          <div class="box-img">
-            <img src="img/car3.jpg" alt="" />
-          </div>
-          <p>2017</p>
-          <h3>2018 Honda Civic</h3>
-          <h2>$58500 | $358 <span>/month</span></h2>
-          <a href="#" class="btn">Rent Now</a>
-        </div>
-
-        <div class="box">
-          <div class="box-img">
-            <img src="img/car4.jpg" alt="" />
-          </div>
-          <p>2017</p>
-          <h3>2018 Honda Civic</h3>
-          <h2>$58500 | $358 <span>/month</span></h2>
-          <a href="#" class="btn">Rent Now</a>
-        </div>
-
-        <div class="box">
-          <div class="box-img">
-            <img src="img/car5.jpg" alt="" />
-          </div>
-          <p>2017</p>
-          <h3>2018 Honda Civic</h3>
-          <h2>$58500 | $358 <span>/month</span></h2>
-          <a href="#" class="btn">Rent Now</a>
-        </div>
-
-        <div class="box">
-          <div class="box-img">
-            <img src="img/car6.jpg" alt="" />
-          </div>
-          <p>2017</p>
-          <h3>2018 Honda Civic</h3>
-          <h2>$58500 | $358 <span>/month</span></h2>
-          <a href="#" class="btn">Rent Now</a>
         </div>
       </div>
     </section>
@@ -177,19 +94,24 @@
       </div>
       <div class="about-container">
         <div class="about-img">
-          <img src="img/about.png" alt="" />
+          <img src="img/myabout.png" alt="" />
         </div>
         <div class="about-text">
           <span>About Us</span>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, vitae!
-            Beatae ducimus numquam labore eligendi dignissimos dolore deserunt
-            officia. In illo libero repudiandae odit iure labore asperiores a
-            dolore architecto?
+            Embark on a seafaring escapade with GasparGem, where the heart of
+            our boat rental services lies in the skilled hands of local
+            fishermen. Born from the rich maritime heritage of our coastal
+            community, GasparGem offers a unique opportunity to cruise the
+            waters in vessels owned and operated by those who intimately know
+            the sea. Experience the authenticity of a nautical adventure with
+            us, where each boat is not just a rental but a voyage guided by the
+            expertise and passion of our local seafaring hosts.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Repellendus saepe, perspiciatis possimus rerum corrupti dicta?
+            Experience the essence of the sea with GasparGem's boat rentals,
+            owned by local fishermen. Cruise authentically, knowing your voyage
+            supports the livelihoods of our dedicated seafaring hosts.
           </p>
           <a href="#" class="btn">Learn More</a>
         </div>
@@ -205,9 +127,9 @@
       <div class="reviews-container">
         <div class="box">
           <div class="rev-img">
-            <img src="img/rev1.jpg" alt="" />
+            <img src="img/def.jpg" alt="" />
           </div>
-          <h2>Someone Name</h2>
+          <h2>Anonymous</h2>
           <div class="stars">
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
@@ -216,34 +138,36 @@
             <i class="bx bxs-star-half"></i>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-            incidunt veniam earum ab nemo reiciendis.
+            GasparGem's boat rental made our coastal getaway unforgettable!
+            Seamless booking, well-maintained boats, and an overall fantastic
+            experience. Highly recommend!
           </p>
         </div>
 
         <div class="box">
           <div class="rev-img">
-            <img src="img/rev2.jpg" alt="" />
+            <img src="img/def.jpg" alt="" />
           </div>
-          <h2>Someone Name</h2>
+          <h2>Anonymous</h2>
           <div class="stars">
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
-            <i class="bx bxs-star-half"></i>
+            <i class="bx bxs-star"></i>
           </div>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Necessitatibus nostrum aliquid libero ducimus veritatis dicta?
+            GasparGem exceeded our expectations! Easy booking process, top-notch
+            boats, and a day on the water that we'll cherish forever. 5 stars
+            all the way!
           </p>
         </div>
 
         <div class="box">
           <div class="rev-img">
-            <img src="img/rev3.jpg" alt="" />
+            <img src="img/def.jpg" alt="" />
           </div>
-          <h2>Someone Name</h2>
+          <h2>Anonymous</h2>
           <div class="stars">
             <i class="bx bxs-star"></i>
             <i class="bx bxs-star"></i>
@@ -252,8 +176,9 @@
             <i class="bx bxs-star-half"></i>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            temporibus ad quia dignissimos. Similique, magni?
+            GasparGem's boat rental provided a perfect day on the waves.
+            Impeccable service, stunning vessels, and an adventure that left us
+            wanting more. Highly satisfied customers!
           </p>
         </div>
       </div>
@@ -261,7 +186,7 @@
 
     <!-- Newsletter -->
     <section class="newsletter">
-      <h2>Subscribe To Newsletter</h2>
+      <h2>Receive Promotion</h2>
       <div class="box">
         <input type="text" placeholder="Enter your email" />
         <a href="#" class="btn">Subscribe</a>
@@ -270,9 +195,15 @@
     <div class="copyright">
       <p>&#169; Niel Mascarinas All Right Reserved 2023.</p>
       <div class="social">
-        <a href="#"><i class="bx bxl-facebook-circle"></i></a>
-        <a href="#"><i class="bx bxl-github"></i></a>
-        <a href="#"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.facebook.com/NielvenMascarinas"
+          ><i class="bx bxl-facebook-circle"></i
+        ></a>
+        <a href="https://github.com/niel-Dev14"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="https://www.instagram.com/niel.000000/"
+          ><i class="bx bxl-instagram"></i
+        ></a>
       </div>
     </div>
 
@@ -280,6 +211,6 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!-- Link to javascript -->
-    <script src="main.js"></script>
+    <script src="src/main.js"></script>
   </body>
 </html>

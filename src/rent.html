@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/rent.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Boat Rental Form</div>
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full name</span>
+            <input type="text" placeholder="Enter name" required />
+          </div>
+
+          <div class="input-box">
+            <span class="details">Number of Passengers</span>
+            <input
+              type="number"
+              placeholder="Enter number of passengers"
+              required
+            />
+          </div>
+
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter phone number" required />
+          </div>
+
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter email" required />
+          </div>
+
+          <div class="input-box">
+            <span class="details">Date</span>
+            <input type="date" placeholder="" required />
+          </div>
+
+          <div class="input-box">
+            <span class="details">Time</span>
+            <input type="time" placeholder="" required />
+          </div>
+        </div>
+        <div class="duration-details">
+          <input type="radio" name="duration" id="dot-1" />
+          <input type="radio" name="duration" id="dot-2" />
+          <input type="radio" name="duration" id="dot-3" />
+          <span class="duration-title">Rental Duration</span>
+          <div class="category">
+            <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="duration">Half Day</span>
+            </label>
+
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="duration">Full Day</span>
+            </label>
+
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="duration">Multiple Days</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Submit" />
+          <input
+            type="button"
+            value="Cancel"
+            onclick="location.href='services.html';"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
